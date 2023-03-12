@@ -20,7 +20,7 @@ const CreatePost = () => {
       try {
         setgeneratingImg(true);
         const response = await fetch(
-          "https://serverdalle-bilardoraka64.b4a.run/api/v1/post",
+          "https://serverdalle-bilardoraka64.b4a.run/api/v1/dalle",
           {
             method: "POST",
             headers: {
