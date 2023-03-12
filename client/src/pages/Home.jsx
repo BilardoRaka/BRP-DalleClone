@@ -24,7 +24,7 @@ const Home = () => {
 
     try {
       const response = await fetch(
-        "https://serverdalle-bilardoraka64.b4a.run/api/v1/post",
+        "https://serverdalle-bilardoraka64.b4a.run/api/v1/dalle",
         {
           method: "GET",
           headers: {
