@@ -51,7 +51,7 @@ const CreatePost = () => {
 
       try {
         const response = await fetch(
-          "https://brpdalle.herokuapp.com/api/v1/post",
+          "https://serverdalle-bilardoraka64.b4a.run/api/v1/post",
           {
             method: "POST",
             headers: {
